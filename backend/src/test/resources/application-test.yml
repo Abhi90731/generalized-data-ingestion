@@ -1,0 +1,12 @@
+spring:
+  # Use H2 in-memory database for tests
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+
+logging:
+  level:
+    root: WARN
+    com.example: DEBUG
